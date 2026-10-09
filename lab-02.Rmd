@@ -70,7 +70,6 @@ plastic_data_all <- data4 %>%
 # Member 2 (pair 1) adds code here to view the first 10 rows of 'plastic_data_all'
 
 
-
 ```
 
 
@@ -81,7 +80,7 @@ plastic_data_all <- data4 %>%
 
 ```{r Ex1, message = FALSE}
 # Write your code here to answer exercise 1
-
+count(plastic_data_all, region, sort = TRUE)
 
 
 ```
